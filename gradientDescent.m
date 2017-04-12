@@ -23,7 +23,8 @@ for iter = 1:num_iters
     for i = 1:m
       delta = delta + (hypothesis(i) - y(i)) .* (X(i, :)');
     end
-    
+   
+   % testing out again
     delta = delta / m;
 
     theta = theta - (alpha .* delta);
