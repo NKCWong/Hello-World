@@ -11,7 +11,7 @@ J_history = zeros(num_iters, 1);
 for iter = 1:num_iters
 
     % ====================== YOUR CODE HERE ======================
-    %
+    % testing testing 12 3 
     %
     hypothesis = X * theta;
     delta = zeros(length(theta), 1);
